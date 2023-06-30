@@ -23,7 +23,5 @@ How to run
 
 npx mocha test\testKasirAja.js
 
-```
-
 
 Link record running program : https://drive.google.com/file/d/1auFqARlrCm7hKMIvuf-kCw2JYhHEHig7/view?usp=sharing
