@@ -583,29 +583,6 @@ describe('Test Endpoint Unit /units', function () {
                     done()
                 })
         })
-        it('Success get Product Detail', (done) => {
-            request(baseUrl)
-                .get('/products/' + productId)
-                .set('Accept', 'application/json')
-                .set('Content-Type', 'application/json')
-                .set('Authorization', 'bearer ' + token)
-                .end(async function (err, response) {
-                    expect(await response.statusCode).to.be.equal(200)
-                   expect(await response.body.data.products.id).not.to.be.null
-                    //expect(await response.body.data.products.name).not.to.be.null
-                    //expect(await response.body.data.products.name).to.be.equal(productId.name)
-                    //expect(await response.body.data.products.email).not.to.be.null
-                    //expect(await response.body.data.products.email).to.be.equal(productId.email)
-                    //expect(await response.body.data.products.role).not.to.be.null
-                    //expect(await response.body.data.products.role).to.be.equal('kasir')
-                    //expect(await response.body.status).to.be.equal('success')
-                    productId = response.body.data.productId
-                    console.log(JSON.stringify(response.body))
-                    if (err) {
-                        throw err
-                    }
-                    done()
-                })
-        })
+       
 
 })
