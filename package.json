@@ -1,0 +1,26 @@
+{
+  "name": "tugas_api_automation",
+  "version": "1.0.0",
+  "description": "Tugas_API_Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "AUTOMATION",
+    "JAVA",
+    "SCRIPT",
+    "SUPERTEST",
+    "MOCHA",
+    "CHAi"
+  ],
+  "author": "bagas andi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}
